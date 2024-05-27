@@ -40,4 +40,4 @@ for col in columns:
 df_result = pd.DataFrame(data)
 
 # Write to csv
-df_result.to_csv('random_data_with_names1.csv', index=False)
+df_result.to_csv('random_data_with_names.csv', index=False)
