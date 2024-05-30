@@ -37,10 +37,12 @@ for _ in range(num_persons):
     for i in range(num_attributes):
         attribute = {}
         attributeA = {}
+        attribute['attID'] = str(uuid.uuid4()) 
         attribute['type'] = random.choice(att_set)
         attribute['value'] = random.randint(1, 100)
         attribute['time'] = datetime.datetime.now().timestamp()
         attribute['queryCount'] = random.randint(1, 20)
+        attributeA['attID'] = str(uuid.uuid4()) 
         attributeA['type'] = random.choice(attA_set)
         attributeA['value'] = random.randint(1, 100)
         attributeA['time'] = datetime.datetime.now().timestamp()
