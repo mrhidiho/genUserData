@@ -10,6 +10,7 @@ with open('data.json', 'r') as f:
 with open('TestUserData.json', 'w') as f:
     pass
 att_set = ["att1", "att2", "att3", "att4", "att5", "att6"]
+attA_set = ["attA", "attB", "attC", "attD", "attE", "attF"]
 
 # Print the data template
 #print(json.dumps(data_template, indent=4))
@@ -40,7 +41,7 @@ for _ in range(num_persons):
         attribute['value'] = random.randint(1, 100)
         attribute['time'] = datetime.datetime.now().timestamp()
         attribute['queryCount'] = random.randint(1, 20)
-        attributeA['type'] = random.choice(att_set)
+        attributeA['type'] = random.choice(attA_set)
         attributeA['value'] = random.randint(1, 100)
         attributeA['time'] = datetime.datetime.now().timestamp()
         attributeA['queryCount'] = random.randint(1, 20)
