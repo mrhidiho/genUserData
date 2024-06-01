@@ -306,3 +306,18 @@ Words formed: dictate, predict, contradict
 
 These root words are derived from Latin and Greek and form the basis for many English words. Understanding these roots can help with deciphering the meanings of unfamiliar words and improving vocabulary.
 
+
+OBJECT Definition ->
+targetObject {
+    name: "string",
+    forceValue: "number",
+    assObjects {
+        assObject{ //n number of assObjects can be added but need to define min force value for association.
+            type: "string | ?",
+            keyMatching: "exact | similar",
+            value: "string",
+            forceValue: "number"
+        }
+    }
+    
+}
