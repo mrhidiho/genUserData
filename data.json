@@ -1,0 +1,37 @@
+{
+    "objectUser": {
+      "type": "person",
+      "time": "unixTime",
+      "properties": [
+        {
+          "attribute": {
+            "type": "attributeType",
+            "value": "value1",
+            "time": "unixTime",
+            "queryCount": 1,
+            "properties": [
+              {
+                "attribute": {
+                  "type": "attributeType",
+                  "value": "value1",
+                  "time": "unixTime",
+                  "queryCount": 1,
+                  "properties": [
+                    {
+                      "attribute": {
+                        "type": "attributeType",
+                        "value": "value1",
+                        "time": "unixTime",
+                        "queryCount": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
